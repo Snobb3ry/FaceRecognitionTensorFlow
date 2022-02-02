@@ -5,7 +5,7 @@ from keras.preprocessing import image
 import cv2
 import numpy as np
 
-face_classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+face_classifier = cv2.CascadeClassifier('C:\Users\asus\OneDrive - Graphic Era University\Desktop\ML AND AI\FaceRecognitionTensorFlow\haarcascade_frontalface_default.xml')
 classifier =load_model('Weights_file_vgg.h5')
 
 class_labels = ['Angry','Happy','Neutral','Sad','Surprise']
